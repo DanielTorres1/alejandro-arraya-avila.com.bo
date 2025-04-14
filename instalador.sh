@@ -15,7 +15,7 @@ rm /etc/apt/keyrings/docker.gpg 2>/dev/null
 
 sudo apt install -y openssl libssl-dev git
 
-git clone https://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@github.com/DanielTorres1/lanscanner.git
+git clone https://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@github.com/DanielTorres1/lanscanner.git
 cd lanscanner
 bash instalar.sh
 cd ..
