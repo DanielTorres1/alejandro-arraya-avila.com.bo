@@ -20,28 +20,28 @@ cd lanscanner
 bash instalar.sh
 cd ..
 
-git clone https://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@github.com/DanielTorres1/webgo.git
+git clone https://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@github.com/DanielTorres1/webgo.git
 cd webgo
 bash instalar.sh
 cd ..
 
-git clone https://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@github.com/DanielTorres1/Webtester.git
+git clone https://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@github.com/DanielTorres1/Webtester.git
 cd Webtester
 bash instalar.sh
 cd ..
 
-git clone https://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@github.com/DanielTorres1/webexploits.git
+git clone https://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@github.com/DanielTorres1/webexploits.git
 cd webexploits
 bash instalar.sh
 cd ..
 
 
-git clone https://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@github.com/DanielTorres1/PassSuite.git
+git clone https://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@github.com/DanielTorres1/PassSuite.git
 cd PassSuite
 bash instalar.sh
 cd ..
 
-git clone https://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@github.com/DanielTorres1/recon.git
+git clone https://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@github.com/DanielTorres1/recon.git
 cd recon
 bash instalar.sh
 cd ..
