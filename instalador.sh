@@ -50,6 +50,11 @@ bash instalar.sh
 cd ..
 
 
+git clone https://token@github.com/DanielTorres1/googlesearch.git
+cd googlesearch 
+bash instalar.sh
+cd ..
+
 git clone https://token@github.com/DanielTorres1/PassSuite.git
 cd PassSuite
 bash instalar.sh
