@@ -6,6 +6,8 @@ if [ "$(id -u)" != "0" ]; then
     exit 1
 fi
 
+curl -fsSL https://archive.kali.org/archive-key.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/kali.gpg
+
 apt update
 
 #!/bin/bash
