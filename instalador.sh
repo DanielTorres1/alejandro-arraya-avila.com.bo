@@ -6,8 +6,6 @@ if [ "$(id -u)" != "0" ]; then
     exit 1
 fi
 
-curl -fsSL https://archive.kali.org/archive-key.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/kali.gpg
-
 apt update
 
 #!/bin/bash
@@ -29,7 +27,7 @@ mkdir source
 cd source
 rm /etc/apt/keyrings/docker.gpg 2>/dev/null
 
-sudo apt install -y openssl libssl-dev git
+sudo apt install -y openssl libssl-dev git gnupg
 
 git clone https://token@github.com/DanielTorres1/lanscanner.git
 cd lanscanner
