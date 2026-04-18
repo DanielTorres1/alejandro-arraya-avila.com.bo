@@ -27,6 +27,13 @@ mkdir source
 cd source
 rm /etc/apt/keyrings/docker.gpg 2>/dev/null
 
+echo -e "${GREEN} [+] Instalando herramientas disponibles en repositorio ${RESET}" 
+wget --no-check-certificate https://kali.download/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2025.2_all.deb
+apt install ./kali-archive-keyring_2025.2_all.deb
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+apt-get update
+
 sudo apt install -y openssl libssl-dev git gnupg
 
 git clone https://token@github.com/DanielTorres1/lanscanner.git
