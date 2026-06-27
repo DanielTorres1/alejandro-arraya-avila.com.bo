@@ -51,12 +51,6 @@ cd Webtester
 bash instalar.sh
 cd ..
 
-git clone https://token@github.com/DanielTorres1/webexploits.git
-cd webexploits
-bash instalar.sh
-cd ..
-
-
 git clone https://token@github.com/DanielTorres1/googlesearch.git
 cd googlesearch 
 bash instalar.sh
